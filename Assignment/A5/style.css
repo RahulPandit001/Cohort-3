@@ -40,6 +40,7 @@ html,body{
 .mainbtn{
     display:flex;
     gap:20px;
+   
 }
 
 .mainbtn button{
@@ -48,6 +49,10 @@ html,body{
     color:white;
     font-size:18px;
     font-weight:600;
+    
+}
+.mainbtn button:nth-child(1),.mainbtn button:nth-child(3){
+    cursor: pointer;
 }
 .mainbtn .sub{
 border: 1px solid white;
@@ -196,6 +201,7 @@ padding: 10px;
     padding: 10px 70px;
  }
  .upper button{
+    cursor: pointer;
     padding: 5px 30px;
     font-size: 15px;
  }
@@ -217,6 +223,7 @@ padding: 10px;
     border: none;
     font-size: 15px;
     font-weight: bold;
+    cursor: pointer;
 
     
  }
