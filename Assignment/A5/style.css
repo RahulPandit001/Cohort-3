@@ -1,0 +1,228 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    margin: 10px;
+} 
+.hero{
+    color: #fff;
+    height:100vh;
+    background-image:url(https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size:cover;
+    background-position:center;
+    position:relative;
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   
+}
+
+.section1{
+    position:absolute;
+    top:30px;
+    left:0;
+    width:100%;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:0 10px;
+}
+
+
+.mainbtn{
+    display:flex;
+    gap:20px;
+}
+
+.mainbtn button{
+    background:transparent;
+    border:none;
+    color:white;
+    font-size:18px;
+    font-weight:600;
+}
+.mainbtn .sub{
+border: 1px solid white;
+padding: 10px;
+}
+.hero-content{
+    text-align:center;
+    color:white;
+}
+
+.hero-content h1{
+    font-size:120px;
+}
+
+.hero-content p{
+    font-size:28px;
+    margin-top:10px;
+}
+
+#line{
+    width:40px;
+    height:5px;
+    background:rgb(255, 255, 255);
+    margin:20px auto;
+}
+
+
+
+
+
+
+
+/* =====section 2======== */
+.section2{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+     align-items: center; 
+    margin: 10px 10px 10px 10px;
+}
+.sec2-main{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.line-sec{
+    width:60px;
+    height:5px;
+    background:rgb(0, 0, 0);
+    margin:20px auto;
+
+}
+.card{
+    height: 400px;
+    width: 100%;
+   display: flex;
+   gap: 40px;
+    
+}
+.card1,.card2,.card3{
+     display: flex;
+    flex-direction: column;
+   
+    background: #fff;
+     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.9);
+}
+.card img{
+    height: 200px;
+    width: 250px;
+    margin-bottom: 40px;
+   
+}
+.line{
+    
+    width:60px;
+    height:2px;
+    background:rgb(0, 0, 0);
+    margin:20px auto;
+}
+.card p{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+/* ====section 3 === */
+.section3{
+    height: 100%;
+    width: 100%;
+    display: flex;
+  
+}
+ .section3 img{
+    width: 50%;
+ }
+ .section3 .right{
+    margin-top: 100px;
+    height: 50%;
+    width: 50%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ }
+ .right p{
+    margin-top: 70px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.2;
+ }
+ .right h1 {
+    font-size: 45px;
+ }
+
+
+ /* ===section4==== */
+
+ .section4{
+    height: 100%;
+    width: 100%;
+ }
+ .upper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 80%;
+    width: 100%;
+    background-color: rgb(128, 128, 128,0.1);
+   
+ }
+ .upper h1{
+    font-size: 45px;
+ }
+ .upper h6{
+    font-size: 20px;
+ }
+ .upper input {
+    background: white;
+    border: none;
+    padding: 10px 70px;
+ }
+ .upper button{
+    padding: 5px 30px;
+    font-size: 15px;
+ }
+ .lower{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+     height: 50%;
+    width: 100%;
+    background-color:whitesmoke;
+ }
+ .btn{
+    display: flex;
+    gap:20px;
+ }
+ .btn button{
+    gap:10px;
+    background: transparent;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+
+    
+ }
+ .icon{
+    display: flex;
+    gap: 10px;
+    font-size: 30px;
+
+ }
